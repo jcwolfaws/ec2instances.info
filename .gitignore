@@ -17,3 +17,26 @@ result
 .wrangler
 deployment/node_modules
 node_modules
+
+# Terraform
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS
+.aws/
+aws.json
+aws-credentials.json
+
+# Azure
+.azure/
+azure.json
+azure-credentials.json
+
+# Local development
+*.log
+.env.local
+.env.*.local
